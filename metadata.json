@@ -1,0 +1,22 @@
+{
+  "KPackageStructure": "KWin/Script",
+  "KPlugin": {
+    "Authors": [
+      {
+        "Email": "syedabutalib589@gmail.com",
+        "Name": "Syed AbuTalib"
+      }
+    ],
+    "Description": "Minimal macOS Rectangle shortcuts for KWin: halves, quarters, thirds, two-thirds, maximize, and workspace navigation.",
+    "Icon": "preferences-system-windows-script-test",
+    "Id": "kwin-mac-rectangle",
+    "License": "MIT",
+    "Name": "KWin Mac Rectangle",
+    "ServiceTypes": ["KWin/Script"],
+    "Version": "0.1.0"
+  },
+  "X-KDE-ParentComponents": ["kwin-mac-rectangle"],
+  "X-KDE-PluginKeyword": "kwin-mac-rectangle",
+  "X-Plasma-API": "javascript",
+  "X-Plasma-MainScript": "code/main.js"
+}
